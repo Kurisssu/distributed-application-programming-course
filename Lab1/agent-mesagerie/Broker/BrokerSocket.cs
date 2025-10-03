@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+using Common;
+
+namespace Broker
+{
+    class BrokerSocket
+    {
+        private const int CONNECTIONS_LIMIT = 10;
+
+        private Socket _socket;
+
+        public BrokerSocket()
+        {
+            _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        }
+
+        public void Start(String ip, int port)
+        {
+            _socket.Bind(new IPEndPoint(IPAddress.Parse(ip), port));
+            _socket.Listen(CONNECTIONS_LIMIT);
+            Accept();
+        }
+
+        private void Accept()
+        {
+            _socket.BeginAccept(AcceptedCallback, null);
+        }
+
+        private void AcceptedCallback(IAsyncResult asyncResult)
+        {
+            ConnectionInfo connection = new Common.ConnectionInfo();
+
+            try
+            {
+                connection.Socket = _socket.EndAccept(asyncResult);
+                // Returneaza ip si port (127.0.0.1:9000)
+                connection.Address = connection.Socket.RemoteEndPoint.ToString();
+                Console.WriteLine($"[Broker] New connection accepted: {connection.Address};");
+
+                connection.Socket.BeginReceive
+                (
+                    connection.Buffer, 0, connection.Buffer.Length, 
+                    SocketFlags.None, 
+                    ReceiveCallback, 
+                    connection
+                );
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Can't accept. {ex.Message}");
+            }
+            finally
+            {
+                // Din nou acceptam conexiuni noi (dupa ce am conectat unul, trecem mai departe)
+                Accept();
+            }
+        }
+
+        private void ReceiveCallback(IAsyncResult asyncResult)
+        {
+            ConnectionInfo connection = asyncResult.AsyncState as ConnectionInfo;
+            try
+            {
+                Socket senderSocket = connection.Socket;
+                SocketError response;
+                int buffSize = senderSocket.EndReceive(asyncResult, out response);
+
+                if(response == SocketError.Success)
+                {
+                    byte[] payload = new byte[buffSize];
+                    Array.Copy(connection.Buffer, payload, payload.Length);
+
+                    Console.WriteLine($"[Broker] Received {buffSize} bytes from {connection.Address}");
+
+                    PayloadHandler.Handle(payload, connection);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Can't receive data: {ex.Message}");
+            }
+            finally
+            {
+                // Spoate de imbunatatit. Se primeste try catch in alt try catch.
+                try
+                {
+                    connection.Socket.BeginReceive
+                    (
+                        connection.Buffer, 0, connection.Buffer.Length, 
+                        SocketFlags.None, 
+                        ReceiveCallback, 
+                        connection
+                    );
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{ex.Message}");
+                    var address = connection.Socket.RemoteEndPoint.ToString();
+
+                    ConnectionStorage.Remove(address);
+                    connection.Socket.Close();
+                }
+            }
+        }
+    }
+}
