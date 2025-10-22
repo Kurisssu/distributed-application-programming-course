@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9E283F12-D776-4CA3-9244-7BB9FB91D07C}|Common\\Common.csproj|e:\\university\\anul-4\\pad\\lab2\\agent grpc\\common\\protos\\subscribe.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9E283F12-D776-4CA3-9244-7BB9FB91D07C}|Common\\Common.csproj|solutionrelative:common\\protos\\subscribe.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab2\\agent grpc\\broker\\services\\subscriberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|solutionrelative:broker\\services\\subscriberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF688790-E11A-4B86-A7D8-F2E92E22346A}|Receiver\\Receiver.csproj|e:\\university\\anul-4\\pad\\lab2\\agent grpc\\receiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF688790-E11A-4B86-A7D8-F2E92E22346A}|Receiver\\Receiver.csproj|solutionrelative:receiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,45 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubscriberService.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Services\\SubscriberService.cs",
-              "RelativeDocumentMoniker": "Broker\\Services\\SubscriberService.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Services\\SubscriberService.cs",
-              "RelativeToolTip": "Broker\\Services\\SubscriberService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:09:09.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Receiver\\Program.cs",
-              "RelativeDocumentMoniker": "Receiver\\Program.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Receiver\\Program.cs",
-              "RelativeToolTip": "Receiver\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T21:08:43.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "subscribe.proto",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Common\\Protos\\subscribe.proto",
-              "RelativeDocumentMoniker": "Common\\Protos\\subscribe.proto",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Common\\Protos\\subscribe.proto",
-              "RelativeToolTip": "Common\\Protos\\subscribe.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-10-21T21:08:26.767Z",
-              "EditorCaption": ""
             }
           ]
         },

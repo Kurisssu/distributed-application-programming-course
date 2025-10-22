@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab2\\agent grpc\\broker\\services\\senderworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|solutionrelative:broker\\services\\senderworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab2\\agent grpc\\broker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2984B10A-53FD-48EB-A4B6-1262D3B4004C}|Broker\\Broker.csproj|solutionrelative:broker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SenderWorker.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Services\\SenderWorker.cs",
+              "RelativeDocumentMoniker": "Broker\\Services\\SenderWorker.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Services\\SenderWorker.cs",
+              "RelativeToolTip": "Broker\\Services\\SenderWorker.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:03:24.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Program.cs",
+              "RelativeDocumentMoniker": "Broker\\Program.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab2\\Agent gRPC\\Broker\\Program.cs",
+              "RelativeToolTip": "Broker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:03:18.77Z",
+              "EditorCaption": ""
             }
           ]
         },
