@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Broker
 {
+    // Se ocupă de prelucrarea datelor primite (mesaje de abonare s-au mesaje care trebui redirecționate către abonați)
     class PayloadHandler
     {
         public static void Handle(byte[] payloadBytes, ConnectionInfo connectionInfo)

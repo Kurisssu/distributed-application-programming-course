@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace Subscriber
 {
+    // Creăm socketul pentru Subscriber care:
+    // - va conecta abonatul la Broker,
+    // - va trimite un mesaj de abonare de tip "subscriber#topic",
+    // - va primi notificări de la Broker și le va trimite către PayloadHandler pentru prelucrare
     class SubscriberSocket
     {
         private Socket _socket;
@@ -20,12 +24,15 @@ namespace Subscriber
             _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         }
 
+        // Operație asincronă de conectare către Broker
         public void Connect(string ipAddress, int port)
         {
             _socket.BeginConnect(new IPEndPoint(IPAddress.Parse(ipAddress), port), ConnectedCallback, null);
             Console.WriteLine("Waiting for a connection");
         }
 
+        // Chemată când BeginConnect a terminat
+        // Verifică dacă este conectat, apoi se abonează și începe a asculta pentru notificări noi
         private void ConnectedCallback(IAsyncResult asyncResult)
         {
             if (_socket.Connected)
@@ -40,6 +47,7 @@ namespace Subscriber
             }
         }
 
+        // Construiește mesajul de abonare, îl coadează și trimite către Broker
         private void Subscribe()
         {
             // Putem imbunatati. Sa introducem in setari campul subscribe# pentru a nu schimba peste tot unul si acelasi camp
@@ -47,6 +55,8 @@ namespace Subscriber
             Send(data);
         }
 
+        // Primește și menține bufferul și socketul în ConnectionInfo...
+        // ...și pornește operația asincronă de ascultare
         private void StartReceive()
         {
             ConnectionInfo connection = new ConnectionInfo();
@@ -62,6 +72,7 @@ namespace Subscriber
 
         }
 
+        // Callback invocat când datele ajung sau starea socketului se schimbă 
         private void ReceiveCallback(IAsyncResult asyncResult)
         {
             ConnectionInfo connectionInfo = asyncResult.AsyncState as ConnectionInfo;
@@ -103,6 +114,8 @@ namespace Subscriber
             }
         }
 
+        // Trimite mesajul de abonare la Broker
+        // Se utilizează în metoda Subscribe
         private void Send(byte[] data)
         {
             try

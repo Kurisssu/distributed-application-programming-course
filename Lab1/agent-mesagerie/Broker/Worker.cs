@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Broker
 {
+    // Se ocupă de trimiterea mesajelor către subscriberii bazându-se pe topicul la care sunt abonați
     public class Worker
     {
         private const int TIME_TO_SLEEP = 500;
