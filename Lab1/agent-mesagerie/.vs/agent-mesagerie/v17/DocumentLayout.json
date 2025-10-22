@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\brokersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\brokersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\brokersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\brokersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\payloadstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\payloadstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\payloadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\payloadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43E9187A-F8B3-4A9B-ABDF-54BC25708F2B}|Publisher\\Publisher.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E9187A-F8B3-4A9B-ABDF-54BC25708F2B}|Publisher\\Publisher.csproj|solutionrelative:publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\broker\\connectionstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32095D35-E503-4DBB-8587-BCA9D37061D1}|Broker\\Broker.csproj|solutionrelative:broker\\connectionstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43E9187A-F8B3-4A9B-ABDF-54BC25708F2B}|Publisher\\Publisher.csproj|e:\\university\\anul-4\\pad\\lab1\\agent-mesagerie\\publisher\\publishersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E9187A-F8B3-4A9B-ABDF-54BC25708F2B}|Publisher\\Publisher.csproj|solutionrelative:publisher\\publishersocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Worker.cs",
+              "RelativeDocumentMoniker": "Broker\\Worker.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Worker.cs",
+              "RelativeToolTip": "Broker\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:20:21.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrokerSocket.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\BrokerSocket.cs",
+              "RelativeDocumentMoniker": "Broker\\BrokerSocket.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\BrokerSocket.cs",
+              "RelativeToolTip": "Broker\\BrokerSocket.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:15:13.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PayloadStorage.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadStorage.cs",
+              "RelativeDocumentMoniker": "Broker\\PayloadStorage.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadStorage.cs",
+              "RelativeToolTip": "Broker\\PayloadStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:06:15.245Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -50,76 +85,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BrokerSocket.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\BrokerSocket.cs",
-              "RelativeDocumentMoniker": "Broker\\BrokerSocket.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\BrokerSocket.cs",
-              "RelativeToolTip": "Broker\\BrokerSocket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Publisher\\Program.cs",
+              "RelativeDocumentMoniker": "Publisher\\Program.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Publisher\\Program.cs",
+              "RelativeToolTip": "Publisher\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:51.787Z",
+              "WhenOpened": "2025-10-22T09:06:34.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConnectionStorage.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\ConnectionStorage.cs",
-              "RelativeDocumentMoniker": "Broker\\ConnectionStorage.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\ConnectionStorage.cs",
-              "RelativeToolTip": "Broker\\ConnectionStorage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:43.486Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PayloadHandler.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadHandler.cs",
-              "RelativeDocumentMoniker": "Broker\\PayloadHandler.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadHandler.cs",
-              "RelativeToolTip": "Broker\\PayloadHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:39.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PayloadStorage.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadStorage.cs",
-              "RelativeDocumentMoniker": "Broker\\PayloadStorage.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\PayloadStorage.cs",
-              "RelativeToolTip": "Broker\\PayloadStorage.cs",
+              "Title": "PublisherSocket.cs",
+              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Publisher\\PublisherSocket.cs",
+              "RelativeDocumentMoniker": "Publisher\\PublisherSocket.cs",
+              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Publisher\\PublisherSocket.cs",
+              "RelativeToolTip": "Publisher\\PublisherSocket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:29.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Program.cs",
-              "RelativeDocumentMoniker": "Broker\\Program.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Program.cs",
-              "RelativeToolTip": "Broker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:05.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Worker.cs",
-              "RelativeDocumentMoniker": "Broker\\Worker.cs",
-              "ToolTip": "E:\\University\\ANUL-4\\PAD\\Lab1\\agent-mesagerie\\Broker\\Worker.cs",
-              "RelativeToolTip": "Broker\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:12:20.252Z"
+              "WhenOpened": "2025-10-22T09:06:32.796Z",
+              "EditorCaption": ""
             }
           ]
         },

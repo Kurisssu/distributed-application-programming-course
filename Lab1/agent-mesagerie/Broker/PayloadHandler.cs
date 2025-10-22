@@ -13,8 +13,11 @@ namespace Broker
     {
         public static void Handle(byte[] payloadBytes, ConnectionInfo connectionInfo)
         {
+            // Convertim tabloul de octeți primit de la Publisher într-un șir de caractere
             var payloadString = Encoding.UTF8.GetString(payloadBytes);
 
+            // Verificăm tipul payloadului primit. Dacă este mesaj de abonare...
+            // ...sau mesaj ce trebuie trimis către abonați
             if (payloadString.StartsWith("subscribe#"))
             {
                 connectionInfo.Topic = payloadString.Split("subscribe#").LastOrDefault();
@@ -23,6 +26,7 @@ namespace Broker
             }
             else
             {
+                // Deserializăm payloadul obținut și îl adăugăm în coada noastră de mesaje
                 Payload payload = JsonConvert.DeserializeObject<Payload>(payloadString);
                 PayloadStorage.Add(payload);
             }

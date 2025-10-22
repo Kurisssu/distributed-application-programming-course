@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Startup",
+    "Projects": [
+      {
+        "Path": "Broker\\Broker.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Sender\\Sender.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Receiver\\Receiver.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

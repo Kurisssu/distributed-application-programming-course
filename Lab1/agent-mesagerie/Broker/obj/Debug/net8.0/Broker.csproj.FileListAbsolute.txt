@@ -17,3 +17,4 @@ E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Broker\obj\Debug\net8.0\Broker.pdb
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Broker\obj\Debug\net8.0\Broker.genruntimeconfig.cache
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Broker\obj\Debug\net8.0\ref\Broker.dll
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Broker\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Broker\obj\Debug\net8.0\Broker.sourcelink.json

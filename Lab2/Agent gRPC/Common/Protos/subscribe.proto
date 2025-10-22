@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCagent";
+
+package gRPCagent;
+
+// The greeting service definition.
+service Subscriber {
+  // Sends a greeting
+  rpc Subscribe (SubscribeRequest) returns (SubscribeReply);
+}
+
+// The request message containing the user's name.
+message SubscribeRequest {
+  string topic = 1;
+  //Endpoint la subscriber ca pe urma sa stim cine este conectat la lista de conexiuni
+  string address = 2;
+}
+
+// The response message containing the greetings.
+message SubscribeReply {
+  bool isSuccess = 1;
+}

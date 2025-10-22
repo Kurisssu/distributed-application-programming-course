@@ -26,7 +26,8 @@ namespace Publisher
             Thread.Sleep(2000);*/
             _connectDone.Reset();
             _socket.BeginConnect(new IPEndPoint(IPAddress.Parse(ipAddress), port), ConnectedCallback, null);
-            _connectDone.WaitOne(); // asteptam pana cand conexiunea s-a stabilit
+            // asteptam pana cand conexiunea s-a stabilit
+            _connectDone.WaitOne();
         }
 
         public void Send(byte[] data)
@@ -53,7 +54,8 @@ namespace Publisher
             }
 
             IsConnected = _socket.Connected;
-            _connectDone.Set(); // signalul ca conexiunea a fost efectuata
+            // signalul ca conexiunea a fost efectuata
+            _connectDone.Set();
         }
     }
 }

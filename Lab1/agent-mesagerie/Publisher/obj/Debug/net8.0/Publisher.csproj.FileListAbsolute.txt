@@ -17,3 +17,4 @@ E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Publisher\obj\Debug\net8.0\refint\
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Publisher\obj\Debug\net8.0\Publisher.pdb
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Publisher\obj\Debug\net8.0\Publisher.genruntimeconfig.cache
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Publisher\obj\Debug\net8.0\ref\Publisher.dll
+E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Publisher\obj\Debug\net8.0\Publisher.sourcelink.json

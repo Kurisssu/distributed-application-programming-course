@@ -9,3 +9,4 @@ E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Common\obj\Debug\net8.0\Common.dll
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Common\obj\Debug\net8.0\refint\Common.dll
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Common\obj\Debug\net8.0\Common.pdb
 E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Common\obj\Debug\net8.0\ref\Common.dll
+E:\University\ANUL-4\PAD\Lab1\agent-mesagerie\Common\obj\Debug\net8.0\Common.sourcelink.json

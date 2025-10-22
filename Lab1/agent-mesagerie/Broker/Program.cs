@@ -13,7 +13,10 @@ namespace Broker
             socket.Start(Settings.BROKER_IP, Settings.BROKER_PORT);
 
             var worker = new Worker();
-            // De informat despre long running thread, thread pool
+
+            // Demararea unei operații asincrone care va crea un fir de execuție separat...
+            // ...dedicat pentru managerul de mesaje (Worker)
+            // Indicăm ca parametru/flag faptul că acest Task va fi de lungă durată
             Task.Factory.StartNew(worker.DoSendMessageWork, TaskCreationOptions.LongRunning);
 
             Console.ReadLine();
